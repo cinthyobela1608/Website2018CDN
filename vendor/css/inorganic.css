@@ -484,3 +484,34 @@ header.header.fixed nav.menu .brand img {
     font-family: "opensans regular";
     border-top: rgba(255, 255, 255, 0.2) 1px solid;
  }
+ header.header.fixed .chooseLocale.open {
+   opacity: 1;
+   visibility: visible;
+ }
+ header.header.fixed .chooseLocale a:not(.btn):not(.snackbar-action) {
+   text-align: center;
+ }
+ header.header.fixed .chooseLocale a.closeBtn {
+   top: 5px;
+   right: 10px;
+   font-size: 2.2em;
+   position: absolute;
+   color: #666 !important;
+ }
+ .open > a {
+   outline: 0;
+ }
+ .h1.thin, .h2.thin, .h3.thin, .h4.thin, .h5.thin, .h6.thin, h1.thin, h2.thin, h3.thin, h4.thin, h5.thin, h6.thin {
+   font-family: "opensans light";
+ }
+ header.header.fixed .chooseLocale .gridMenu, header.header.fixed .chooseLocale .flagList {
+   margin: 20px 0 25px;
+ }
+ header.header.fixed nav.menu > ul > li nav.submenu > nav > li a, header.header.fixed nav.menu > ul > li nav.submenu > ul > li a {
+   display: block;
+   padding: 5px 15px;
+   text-transform: none;
+   color: #222222;
+   font-family: "opensans regular";
+   border-bottom: rgba(0, 0, 0, 0.15) 1px solid;
+ }
