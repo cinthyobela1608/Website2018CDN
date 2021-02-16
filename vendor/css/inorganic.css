@@ -15,8 +15,6 @@
     background: #efefef;
     font-family: "didactgothic regular";
     transition: all ease-in 0.3s;
-    background: transparent;
-    box-shadow: none;
 }
 .fixed {
     position: fixed;
