@@ -1,0 +1,174 @@
+.social-media {
+     text-align: center;
+  }
+
+.social-media a, social-media a {
+     margin: 0px 10px;
+  }
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color:white 
+  }
+
+  .benefit {
+     border: 1px solid #000000;
+     border-radius: 20px;
+     background-color: #444444;
+     color: #ffffff;
+     text-align: center;
+     height: 90%;
+     }
+
+    .btn-apply-academy-now {
+     color: #113c69;
+     background-color: #eee;
+     border-color: #444;
+     border-radius: 20px;
+     width: 20%;
+    }
+
+    @media (max-width:576px) {
+       .logo-criteria {
+       width:0
+     }
+       .youtube-mobile {
+         width:335px;
+         height:250px
+       }
+    }
+
+    .banner-home {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+    }
+
+    .top-banner {
+     position: relative;
+     height: 480px;
+     padding-top: 208px;
+     background-size: cover;
+    }
+
+    .top-banner-bg {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     height: 500px;
+     z-index: -1;
+    }
+
+    .tulisan {
+     border: 1px solid;
+     padding: 10px;
+     width: fit-content;
+     color: #ffffff;
+     background-color: #123c69;
+     font-size: 20px;
+     font-family: josefinsans semibold;
+    }
+
+    .accordion {
+     background-color: #eee;
+     color: #444;
+     cursor: pointer;
+     padding: 18px;
+     width: 100%;
+     border: none;
+     text-align: left;
+     outline: none;
+     font-size: 15px;
+     transition: 0.4s;
+     }
+   
+     .active, .accordion:hover {
+       background-color: #ccc;
+     }
+   
+     .accordion:after {
+       content: '\002B';
+       color: #777;
+       font-weight: bold;
+       float: right;
+       margin-left: 5px;
+     }
+   
+     .active-faq:after {
+       content: "\2212";
+     }
+   
+     .panel {
+       padding: 0 18px;
+       background-color: white;
+       max-height: 0;
+       overflow: hidden;
+       transition: max-height 0.2s ease-out;
+     }
+
+     .btn-submit {
+          color: #fff;
+          background-color: #113c69;
+          border-color: #444;
+          width: 25%;
+          border-radius: 20px;
+     }
+ 
+     .top-banner-content {
+          text-align: center;
+          background-color: transparent;
+     }
+
+     .top-banner-title {
+          color: #fff;
+          font-size: 58px;
+          font-weight: 800;
+          line-height: 58px;
+          text-align: center;
+          margin-bottom:3%;
+     }
+
+     .btn-apply-now {
+          color: #fff;
+          background-color: #113c69;
+          border-color: #444;
+          width: 100%;
+     }
+
+     .btn-apply-now-home {
+          width: 100%;
+          padding: 2%;
+          font-size: 150%;
+          color: #444;
+          background-color: #eee;
+          border-color: #444;
+          min-width: 120px;
+          min-height: 80px;
+     }
+
+     .join-us {
+          position: relative;
+          display: flex;
+          height: 293px;
+          -webkit-box-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          align-items: center;
+          background: url(http://deo.shopeemobile.com/shopee/shopee-careers-live-id/assets/img/join_us.6f44a52a.jpg) 50% no-repeat;
+          background-size: cover;
+     }
+
+     @media (max-width:768px) {
+          .top-banner-title {
+          width: 80%;
+          margin: 0 auto 10px;
+          font-size: 26px;
+          line-height: 30px;
+          }
+     }
+     
+     .btn-see-details {
+          color: #113c69;
+          background-color: #fff;
+          width: 100%;
+     }
