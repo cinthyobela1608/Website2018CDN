@@ -50,6 +50,11 @@
      background-size: cover;
     }
 
+    .search-bar {
+     position: relative;
+     background-size: cover;
+    }
+
     .top-banner-bg {
      position: absolute;
      top: 0;
