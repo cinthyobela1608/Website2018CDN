@@ -271,6 +271,7 @@ section {
 
 .navbar .dropdown ul li {
   min-width: 200px;
+  padding-right: 80px;
 }
 
 .navbar .dropdown ul a {
